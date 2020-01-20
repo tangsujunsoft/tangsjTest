@@ -1,0 +1,69 @@
+<view class='lbs'>
+  <!-- <image src="/image/swiper1.jpg" ></image> -->
+  <swiper indicator-dots="true" style="height: 300rpx">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='navs'>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-qiandao.png"></image>
+    <text>签到</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-fujin.png"></image>
+    <text>附近</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-zhanhui.png"></image>
+    <text>旅展</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-fuli.png"></image>
+    <text>福利</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-muma.png"></image>
+    <text>玩乐</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-xingxing.png"></image>
+    <text>周边</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-tiyu.png"></image>
+    <text>体育</text>
+  </navigator>
+  <navigator class='nav' url="" hover-class="navigator-hover">
+    <image src="/image/icon-qinzi.png"></image>
+    <text>亲子</text>
+  </navigator>
+</view>
+
+
+<view class='line'></view>
+<view class='hots'>
+  <view class='title'>热门商品</view>
+  <navigator class='hot' url="" hover-class="navigator-hover">
+    <image class='goods-img' src="/image/zhutu.jpg"></image>
+    <view class='goods-info'>
+      <text>商品标题：大师傅</text>
+      <text>品牌：克拉子</text>
+      <text>价格：368</text>
+      <image class='cart' src="/image/car.png"></image>
+    </view>
+  </navigator>
+  <navigator class='hot' url="" hover-class="navigator-hover">
+    <image class='goods-img' src="/image/zhutu.jpg"></image>
+    <view class='goods-info'>
+      <text>商品标题：大师傅</text>
+      <text>品牌：克拉子</text>
+      <text>价格：368</text>
+      <image class='cart' src="/image/car.png"></image>
+    </view>
+  </navigator>
+</view>
