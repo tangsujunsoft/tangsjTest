@@ -13,7 +13,7 @@
 <view class="goods-img"><image src="/image/test.jpg"></image></view>
 <view class='title'>大保健营养保健品老人</view>
 <view class='price'>
-<text>¥ 95 <text class="s">¥ 190</text></text>
+<text>¥ 95 <text class="s">¥ 180</text></text>
 <text>还剩1天20小时</text>
 </view> 
 </view>
