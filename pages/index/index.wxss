@@ -14,7 +14,7 @@ height: 300rpx;
   display: flex;flex-wrap: wrap;
 }
 .navs .nav { 
-  width: 25%; height: 175rpx;
+  width: 33%; height: 175rpx;
   display: flex;
   flex-direction: column;
   justify-content: center;

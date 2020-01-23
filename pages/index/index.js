@@ -9,7 +9,7 @@ Page({
     imgUrls: [
       '/image/zhutu.jpg',
       '/image/test.jpg',
-      '/image/swiper1.jpg',
+      '/image/swiper1.jpg'
       ]
   },
 

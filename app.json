@@ -10,7 +10,7 @@
   ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "商城",
+    "navigationBarTitleText": "订单管理",
     "navigationBarBackgroundColor": "#69c3aa",
     "backgroundColor": "#fbf9fe"
   },
@@ -27,14 +27,8 @@
         "selectedIconPath": "image/shouye.png"
       },
       {
-        "pagePath": "pages/faxian/faxian",
-        "text": "活动",
-        "iconPath": "image/huodong1.png",
-        "selectedIconPath": "image/huodong.png"
-      },
-      {
         "pagePath": "pages/xiaoxi/xiaoxi",
-        "text": "购物车",
+        "text": "位置分布",
         "iconPath": "image/car1.png",
         "selectedIconPath": "image/car.png"
       },
