@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/wode/wode",
-    "pages/faxian/faxian",
     "pages/index/index",
+    "pages/faxian/faxian",
     "pages/spdetail/spdetail",
     "pages/xiaoxi/xiaoxi",
     "pages/pay/pay",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/my/my"
   ],
   "window": {
     "navigationBarTextStyle": "white",
@@ -33,7 +33,7 @@
         "selectedIconPath": "image/car.png"
       },
       {
-        "pagePath": "pages/wode/wode",
+        "pagePath": "pages/my/my",
         "text": "我的",
         "iconPath": "image/wode1.png",
         "selectedIconPath": "image/wode.png"
