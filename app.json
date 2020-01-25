@@ -1,12 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/faxian/faxian",
-    "pages/spdetail/spdetail",
-    "pages/xiaoxi/xiaoxi",
-    "pages/pay/pay",
     "pages/test/test",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/map/map"
   ],
   "window": {
     "navigationBarTextStyle": "white",
@@ -27,7 +24,7 @@
         "selectedIconPath": "image/shouye.png"
       },
       {
-        "pagePath": "pages/xiaoxi/xiaoxi",
+        "pagePath": "pages/map/map",
         "text": "位置分布",
         "iconPath": "image/car1.png",
         "selectedIconPath": "image/car.png"
